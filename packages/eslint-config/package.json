@@ -1,6 +1,6 @@
 {
   "name": "@rhumbertgz/eslint-config-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "Humberto Rodríguez Avila",
   "description": "Shared ESLint config for React projects",
@@ -16,7 +16,8 @@
     "publish-manual": "npm publish"
   },
   "peerDependencies": {
-    "@babel/eslint-parser": "7.x",
+    "@typescript-eslint/eslint-plugin": "5.x",
+    "@typescript-eslint/parser": "5.x",
     "eslint": "8.x",
     "eslint-config-prettier": "8.x",
     "eslint-config-standard": "17.x",
@@ -27,10 +28,14 @@
     "eslint-plugin-promise": "6.x",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "4.x",
+    "eslint-plugin-react-refresh": "0.x",
     "prettier": "2.x"
   },
   "peerDependenciesMeta": {
-    "@babel/eslint-parser": {
+    "@typescript-eslint/eslint-plugin": {
+      "optional": false
+    },
+    "@typescript-eslint/parser": {
       "optional": false
     },
     "eslint": {
