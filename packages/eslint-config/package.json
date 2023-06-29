@@ -1,6 +1,6 @@
 {
   "name": "@rhumbertgz/eslint-config-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "author": "Humberto Rodríguez Avila",
   "description": "Shared ESLint config for React projects",
