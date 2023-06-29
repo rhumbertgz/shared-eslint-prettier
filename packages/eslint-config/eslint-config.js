@@ -1,20 +1,14 @@
 module.exports = {
-  env: {
-    browser: true,
-    es2022: true,
-  },
+  env: { browser: true, es2022: true },
   extends: [
-    "plugin:react/recommended",
-    "standard",
-    "plugin:prettier/recommended",
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:react-hooks/recommended',
   ],
-  parser: "@babel/eslint-parser",
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 12,
-    sourceType: "module",
+  parser: '@typescript-eslint/parser',
+  parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
+  plugins: ['react-refresh'],
+  rules: {
+    'react-refresh/only-export-components': 'warn',
   },
-  plugins: ["react"],
-};
+}
