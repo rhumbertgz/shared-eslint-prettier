@@ -1,0 +1,21 @@
+{
+    "name": "@rhumbertgz/prettier-config",
+    "version": "0.0.1",
+    "license": "MIT",
+    "author": "Humberto Rodríguez Avila",
+    "description": "Shared Prettier config",
+    "main": "./prettier-config.json",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rhumbertgz/shared-eslint"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "publish-manual": "npm publish"
+    },
+    "peerDependencies": {
+        "prettier": "2.x"
+    }
+}
